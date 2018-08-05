@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <br>
+    <h1>Rot13 Verschl&uuml;sselung / Red13 Encryption<br>(Caesar Verschl&uuml;sselung / Caesar Cipher)</h1>
+
+    <LINK href="mini.css" rel="stylesheet" type="text/css">
+
+    <script src="rot13.js"></script>
+  </head>
+  <body>
+<h2><font color=lightblue>Klartext / Plaintext:</font></h2>
+<font size="3em" color=white>unten auf [ VERSCHLUESSELN ] klicken</font><br>
+    <textarea id="plaintext"  autofocus="autofocus" rows="22" cols="70" >a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e
+
+ (\___/)     (\__/)        (\___/)                   (\__/)
+ (=` .`)     (' '=)        (=` .`)                   (' '=)
+ (_(")(")  (")(")_)        (_(")(")                (")(")_)
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+da die verschluesselung symetrisch ist, wird mit dem
+verschluesseln  des unverschluesselten text der
+verschluesselte text entschluesselt: (ᵔᴥᵔ)
+
+☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠
+haq qnf uvre vfg wrgmg qre ragfpuyüffrygr grkg anpu qrz
+rag- / irefpuyüffrya zvg rvare ebg 13 irefpuyüffryahat
+☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠ ☠
+
+und dieser text hier wird dann verschlüsselt.
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =</textarea>
+<br>
+<br>
+<input type="button" value="Rot 13 verschlüsseln" onclick="myFunction()" /> &emsp; / &emsp; <input type="button" value="TODO: Caesar Verschl&uuml;sselung" onclick="myFunction()" disabled/>
+<br>
+<br>
+<font size="4em"><a href="https://de.wikipedia.org/wiki/Caesar-Verschl%C3%BCsselung">Caesar Verschl&uuml;sselung</a> um <font  color=tomato> <!-- here would be another input field-->13</font> <a href="https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange#ASCII-Tabelle">Buchstaben</a> verschoben.</font><br>
+<font size="2em"><a href="https://en.wikipedia.org/wiki/Caesar_cipher">Caesar cipher</a>, <a href="https://en.wikipedia.org/wiki/ASCII#ASCII_printable_code_chart">letters</a> shifted <font  color=tomato> <!-- here would be another input field-->13</font> columns</font>
+<br>
+<br>
+
+<h2><font color=tomato>Verschl&uuml;sselt / Encrypted:</font></h2>
+<font size="3em" color=white>Achtung auf Tablets rechenet es ca. 15 Sekunden</font>
+<br>
+<textarea type="text" id="encrypted" rows="22" cols="70" value="encrypted">
+OUTPUT
+</textarea>
+<br>
+<br>
+<h4>Logdatei des Javascripts welches lokal l&auml;uft und nicht zuerst als Klartext auf den Server geladen wird:</h4>
+<small>Logfile of the javascript that runs locally and is not uploaded first as plaintext to the server:</small><br><br>
+<textarea id="log" rows="15" cols="70">Log:
+</textarea>
+<br><br>
+Da bin ich trotz des Schwurbelns immer noch der Meinung dass das Implementieren einer Crypto irgendwie Sinn macht denn sonst lernt ja niemand wie das funktioniert, obwohl FEFE vom CCC da sagt man soll das nicht selber implementieren...
+<br><br>
+<b>Apropos erstem Google Treffer:</b><br><br>
+Bei <a href="http://webcache.googleusercontent.com/search?q=cache:mkufyd7T9DIJ:stackoverflow.com/questions/617647/where-is-my-one-line-implementation-of-rot13-in-javascript-going-wrong+&cd=1&hl=de&ct=clnk&gl=ch">Stackexchange</a> hat es bei der ersten L&ouml;sung einen <a href="https://de.wikipedia.org/wiki/Off-by-one-Error">Obi-Wan error (Off-by-one-Error)</a> <br>daf&uuml;r hat es aber auch noch eine super kurze Variante, die aber nicht gerade gut lesbar ist.
+ <br> <br> 
+
+<br>
+<br>
+<a href="https://creativecommons.org/"><img src="./cc-whiteheart.png" width=150/></a><br><br>
+Lizenz: cc-by-sa-nc
+
+
+    <h2>Pakungsbeilage zu <font color=tomato>rot13.com</font></h2>
+im Gegensatz zum 1. Link in <a href="./pedoGoogle.png">GOOGLE</a>, wird das hier auf dem eigenen Rechner<br> verschl&uuml;sselt und wird nicht zuerst auf rot13.com hochgeladen, dies sieht man am <a href="https://en.wikipedia.org/wiki/POST_(HTTP)">method="post"</a> im Screenshot<br>
+
+<br>
+<br>
+<b>Screenshot:</b>
+<br>
+<br>
+<a href="./rot13.com.png"><img src="./rot13.com.png" width="200px"  id="rot13"/></a><br><br>
+<small>In contrast to the first link in <a href="./pedoGoogle.png">GOOGLE</a>, this red13 is calculated on your own computer and will<br>
+ not be uploaded first to rot13.com</small>
+<br>
+<br>
+
+Und weshalb eine <a href="https://de.wikipedia.org/wiki/Monoalphabetische_Substitution">Monoalphabetische Substitution</a> jeweils keine gute Idee ist erklärt uns das <a href="http://www.jungschar.biz/w/wp-content/uploads/HFZ/HB%204/15%20GS%20HB%20IV.pdf">Jungschaar Geheimschriften Dokument</a>, irgendwo weiter unten.
+<br><br><a href="./monoalphabetischeSubsitiution.png"><img width=200 src="./monoalphabetischeSubsitiution.png"/></a>
+<br> E ist im Deutschen und im Englischen der häufigste Buchstabe
+
+  </body>
+</html>
+
+
+

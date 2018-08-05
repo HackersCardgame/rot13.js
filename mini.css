@@ -1,0 +1,140 @@
+body, h1, h2 {
+  text-align: center;
+  align: center;
+  font-family: DejaVu;
+}
+
+html, textarea {
+  background-color: black;
+  text-align: center;
+  color: #0e0; 
+}
+
+
+textarea {
+  font-family: "DejaVu";
+  background-color: #111;
+  width: 80%;
+  font-size: 120%;
+  padding: 5px;
+  box-shadow: 0 0 10px #333;
+  outline: none !important;
+  border:1px solid black;
+  text-align: left;
+}
+
+#log {
+  font-size: 70%;
+}
+
+input {
+    font-size: 160%;
+}
+
+/* Links in cool blue */
+a {
+    color: lightblue;
+}
+
+
+/*
+Since I use Characters from different fonts and especially the (Andorid) Tables
+don't have a good default font I have to definine them here
+⳩☧⳩
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSans-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Italic.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-BoldOblique.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSans.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf);
+}
+*/
+
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/freefont/FreeSerif.ttf);
+}
+
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf);
+}
+/*
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf);
+}
+@font-face {
+    font-family: 'DejaVu';
+    src: url(usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf);
+}
+*/
+@font-face { 
+  font-family: "DejaVu"; 
+  src: url("FreeMonoBold.ttf");
+}
